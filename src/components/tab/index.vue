@@ -1,6 +1,6 @@
 <template>
   <div class="tab">
-    <router-link tag="div" class="tab-item" to="/recommend">
+    <router-link tag="div" class="tab-item" to="/recommand">
       <span class="tab-link">推荐</span>
     </router-link>
     <router-link tag="div" class="tab-item" to="/singer">
@@ -25,7 +25,7 @@
   .tab
     display: flex
     height: 44px
-    line-height: 44px
+    line-height: 44px 
     font-size: $font-size-medium
     .tab-item
       flex: 1
