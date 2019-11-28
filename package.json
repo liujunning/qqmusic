@@ -13,6 +13,8 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "axios": "^0.19.0",
+    "better-scroll": "^1.15.2",
     "fastclick": "^1.0.6",
     "jsonp": "^0.2.1",
     "mint-ui": "^2.2.13",
