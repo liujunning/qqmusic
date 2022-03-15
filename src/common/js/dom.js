@@ -1,3 +1,6 @@
+/**
+ * 操作 DOM函数
+ * */
 export function addClass(el, className) {
   console.log(className)
   if (hasClass(el, className)) {
